@@ -5,7 +5,7 @@ locale: en_US
 description: Thoughts and scribbles from maze
 logo: site-logo.png
 search: true
-url: http://www.maze.io
+#url: http://www.maze.io
 
 # Jekyll configuration
 
