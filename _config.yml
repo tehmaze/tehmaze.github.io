@@ -1,0 +1,51 @@
+# Site wide configuration
+
+title: Random Noize
+locale: en_US
+description: Thoughts and scribbles from maze
+logo: site-logo.png
+search: true
+#url: http://themicronaut.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+paginate: 20
+paginate_path: /posts/page:num
+
+# Site owner
+owner:
+  name: Wijnand Modderman-Lenstra
+  avatar: site-logo.png
+  email: maze@pyth0n.org
+  disqus-shortname: tehmazegithubio
+  github: tehmaze
+  google:
+    plus:
+    analytics: UA-54877893-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:

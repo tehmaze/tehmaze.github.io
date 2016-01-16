@@ -1,0 +1,19 @@
+# Site navigation links
+
+- title: Main
+  url: /
+
+- title: About
+  url: /about/
+
+- title: Blog
+  url: /blog/
+
+- title: Cheat sheets
+  url: /cheatsheet/
+
+- title: Tags
+  url: /tags/
+
+- title: Search
+  url: /search/
