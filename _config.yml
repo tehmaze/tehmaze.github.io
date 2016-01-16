@@ -5,13 +5,13 @@ locale: en_US
 description: Thoughts and scribbles from maze
 logo: site-logo.png
 search: true
-#url: http://themicronaut.github.io
+url: http://www.maze.io
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rouge
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
