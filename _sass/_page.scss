@@ -312,6 +312,9 @@ span + .entry-title {
     @include font-size(16,no,18);
     border-bottom: 1px solid $border-color;
     list-style-type: none;
+    & > ul > li {
+    	padding-left: 1em;
+    }
   }
   h6 {
     margin: 0;
