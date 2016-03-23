@@ -18,7 +18,7 @@ bands with typically a frequency split of 7.6 MHz, very much like traditional
 FM repeaters. More and more DMR enabled repeaters are popping up and there have
 been competing networks to link the repeaters up over the internet.
 
-## Other digital voice standards.
+## Other digital voice standards
 
 There are many other digital voice standards operated by the HAM radio
 community such as TETRA, D-STAR, C4FM and many more. DMR is a relatively new
