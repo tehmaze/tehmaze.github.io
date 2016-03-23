@@ -10,7 +10,6 @@ author: maze
 image:
   feature: /posts/radio.jpg
 date: 2016-03-23T10:07:00+01:00
-hidden: true
 ---
 Lately I've become more involved in the HAM radio DMR community. Digital
 Mobile Radio, or DMR, is a Time Division Multiple Access (TDMA) digital voice
@@ -41,6 +40,11 @@ open source DMR repeater system while the DVMEGA and DV4mini allow end users
 to run their own local DMR hot spot.
 
 ## Linked repeaters
+
+<div class="post-image-large">
+	<a href="http://www.cqdmrmap.com/"><img src="/images/cqdmrmap.png" alt="CQ DMR map"></a>
+	<label>CQ DMR map &copy; EA2CQ</label>
+</div>
 
 Various projects exist today that link up the various DMR repeater systems.
 This can be somewhat confusing to the end user, because not all systems link up
@@ -91,11 +95,14 @@ has started the [Brandmeister][] project to link up repeaters using different
 technologies. More talented developers from all over the world have joined the
 Brandmeister project and the development team continues to expand.
 
-![Brandmeister network growth](/images/bm-growth.png)
+<div class="post-image-large">
+	<a href="http://www.brandmeister.network/"><img src="/images/bm-growth.png" title="Brandmeister network growth © PD0ZRY"></a>
+	<label>Brandmeister network growth, © PD0ZRY</label>
+</div>
 
-Start off small, the Brandmeister project now has over 250 repeaters linked up
-from all over the world. This is still a relatively small network compared to
-D-STAR which has over 1000 repeaters linked, but the network growth rate is
+Starting off small, the Brandmeister project now has over 250 repeaters linked
+up from all over the world. This is still a relatively small network compared
+to D-STAR which has over 1000 repeaters linked, but the network growth rate is
 fenominal. The repeaters setup a link to a regional master, that
 has a full mesh with all the other regional masters around the world. This
 allows anyone on the Brandmeister DMR network to open up remote *Talk Groups* 
@@ -109,7 +116,12 @@ a web based front end dubbed [Hose line][] which allows users to listen in to
 the voice streams that are on the network. The engine is entirely built in
 [Go][] and Javascript. This is how it all works.
 
-![Hose line](/images/hoseline.png)
+<p>
+  <div class="post-image-large">
+	<a href="http://hose.brandmeister.network/"><img src="/images/hoseline.png" title="Hose line"></a>
+	<label>Hose line &copy; PD0MZ</label>
+  </div>
+</p>
 
 ### Full mesh routing
 

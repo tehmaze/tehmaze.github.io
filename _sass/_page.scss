@@ -248,6 +248,27 @@ span + .entry-title {
 	float: right;
 }
 
+.post-image-large {
+	width: 100%;
+	margin-bottom: 1em;
+	clear: both;
+
+	img {
+		max-width: 100%;
+		clear: both;
+	}
+
+	label {
+		width: 100%;
+		text-align: right;
+		font-family: $figcaption-font;
+  	  	@include font-size(12,no);
+  	  	color: $white;
+  	  	background-color: rgba($black, 0.7);
+		padding: 0.5em;
+	}
+}
+
 /*
    Disqus
    ========================================================================== */
