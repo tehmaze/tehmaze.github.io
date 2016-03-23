@@ -46,7 +46,7 @@ Various projects exist today that link up the various DMR repeater systems.
 This can be somewhat confusing to the end user, because not all systems link up
 to the other existing systems, so there are multiple views of what is the
 global DMR platform. You can get an overview of how the various networks are
-spread on the http://www.cqdmrmap.com/ site.
+spread on the [http://www.cqdmrmap.com/](http://www.cqdmrmap.com/) site.
 
 More and more sites are adapting the Brandmeister DMR technology. Brandmeister
 is driven by a very talented group of HAM radio operators from all over the
@@ -57,9 +57,8 @@ when you combine modern day technologies with a group of driven HAM radio
 operators. Brandmeister offers support for a [very wide variety of
 vendors](http://www.dstar.su/tools/panel/list.htm) and is fully decentralized.
 Also, Brandmeister is promoting experimentation with home built solutions by
-offering [Homebrew protocol](https://bm.pd0zry.nl/index.php/Protocols) IP
-Site Connect (IPSC) support, so HAM radio operators can plug in to the
-Brandmeister network.
+offering [Homebrew protocol](https://bm.pd0zry.nl/index.php/Protocols)
+support, so HAM radio operators can plug in to the Brandmeister network.
 
 ## Voice synthesis
 
@@ -81,9 +80,9 @@ experimenting with open voice standards like [Codec2][] or [Opus][].
 Addressing on the DMR network uses 24 bit identifiers to uniquely identify
 actors on the network. There are two standard modes that carry voice
 information (indicated by the Full Link Control Opcode or FLCO) that indicate
-wether a voice packet is destined for a group, or for a (private) user to user
-conversation. If a group voice packet is sent, the destination identifier is
-usually referred to as a *Talk Group*.
+wether a voice transmission is destined for a group, or for a (private) user
+to user transmission. If a group voice transmission is sent, the destination
+identifier is usually referred to as a *Talk Group*.
 
 ## Brandmeister
 
@@ -116,7 +115,7 @@ the voice streams that are on the network. The engine is entirely built in
 
 All the regional masters on the Brandmeister network have a list of what other
 regional masters exist on the network. If a user on the Brandmeister DMR network
-starts a voice conversation to a *Talk Group*, all of the voice packets are
+starts a voice conversation to a *Talk Group*, all of the voice transmissions are
 relayed to all the other regional masters on the network. In turn, the regional
 master relays all of these packets to all of the repeaters. The repeaters keep
 track of what *Talk Groups* are local to them, or what *Talk Groups* are recently
