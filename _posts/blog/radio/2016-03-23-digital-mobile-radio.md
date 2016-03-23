@@ -19,15 +19,6 @@ bands with typically a frequency split of 7.6 MHz, very much like traditional
 FM repeaters. More and more DMR enabled repeaters are popping up and there have
 been competing networks to link the repeaters up over the internet.
 
-## Adressing on the DMR network
-
-Addressing on the DMR network uses 24 bit identifiers to uniquely identify
-actors on the network. There are two standard modes that carry voice
-information (indicated by the Full Link Control Opcode or FLCO) that indicate
-wether a voice packet is destined for a group, or for a (private) user to user
-conversation. If a group voice packet is sent, the destination identifier is
-usually referred to as a *Talk Group*.
-
 ## Other digital voice standards.
 
 There are many other digital voice standards operated by the HAM radio
@@ -84,6 +75,15 @@ in their radio systems.
 Luckily, the DMR specification leaves plenty of room for other voice codecs to
 be carried over the DMR network. So hopefully, the HAM radio will start
 experimenting with open voice standards like [Codec2][] or [Opus][].
+
+## Adressing on the DMR network
+
+Addressing on the DMR network uses 24 bit identifiers to uniquely identify
+actors on the network. There are two standard modes that carry voice
+information (indicated by the Full Link Control Opcode or FLCO) that indicate
+wether a voice packet is destined for a group, or for a (private) user to user
+conversation. If a group voice packet is sent, the destination identifier is
+usually referred to as a *Talk Group*.
 
 ## Brandmeister
 
