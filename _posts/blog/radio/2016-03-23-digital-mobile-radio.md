@@ -92,6 +92,8 @@ has started the [Brandmeister][] project to link up repeaters using different
 technologies. More talented developers from all over the world have joined the
 Brandmeister project and the development team continues to expand.
 
+![Brandmeister network growth](/images/bm-growth.png)
+
 Start off small, the Brandmeister project now has over 250 repeaters linked up
 from all over the world. This is still a relatively small network compared to
 D-STAR which has over 1000 repeaters linked, but the network growth rate is
