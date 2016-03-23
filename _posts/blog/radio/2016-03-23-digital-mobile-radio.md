@@ -106,9 +106,11 @@ repeater.
 ## Hose line
 
 Piggy backing on the full mesh routing capabilities, I have started to develop
-a web based front end which allows users to listen in to the voice streams that
-are on the network. The engine is entirely built in [Go][] and Javascript. This
-is how it all works:
+a web based front end dubbed [Hose line][] which allows users to listen in to
+the voice streams that are on the network. The engine is entirely built in
+[Go][] and Javascript. This is how it all works.
+
+![Hose line](/images/hoseline.png)
 
 ### Full mesh routing
 
@@ -123,7 +125,7 @@ or not.
 
 ### Streaming
 
-The Hose line project uses the full mesh routing capabilities of the
+The [Hose line][] project uses the full mesh routing capabilities of the
 Brandmeister DMR network to receive voice frames from all the regional masters
 around the world. When a voice frame is received for a *Talk Group*, Hose line
 check if there are subscribers listening to the stream and decodes the voice
@@ -142,3 +144,4 @@ in the [Go][] programming language.
 [Opus]: https://www.opus-codec.org/
 [Brandmeister]: http://www.brandmeister.network/
 [Go]: http://golang.org/
+[Hose line]: http://hose.brandmeister.network/
