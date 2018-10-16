@@ -28,7 +28,7 @@ search_omit: true
   {% if page == paginator.page %}
     <span class="btn" style="background-color: #fff; color: #000;">{{ page }}</span>
   {% elsif page == 1 %}
-    <a href="{{ site.url }}" class="btn">{{ page }}</a>
+    <a href="https://www.maze.io" class="btn">{{ page }}</a>
   {% else %}
     <a href="{{ site.paginate_path | replace: ':num', page }}" class="btn">{{ page }}</a>
   {% endif %}

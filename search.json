@@ -7,7 +7,7 @@ sitemap: false
   {% if post.title != null and post.title != empty and post.search_omit != true %}
     {% if forloop.index > 1 %},{% endif %}{
       "title"         : {{ post.title | jsonify }},
-      "link"          : "{{ site.url }}{{ post.url }}",
+      "link"          : "https://www.maze.io{{ post.url }}",
       "date"        : "{{ post.date | date: "%B %d, %Y" }}",
       "excerpt"   : "{{ post.excerpt | strip_html | strip_newlines }}",
       "category" : "{{ post.categories | array_to_sentence_string }}"	,
@@ -20,7 +20,7 @@ sitemap: false
   {% if page.layout != 'none' and page.layout != 'none' and page.title != null and page.title != empty and page.search_omit != true %}
     {% if forloop.index > 1 %},{% endif %}{
       "title"			: {{ page.title | jsonify }},
-      "link"			: "{{ site.url }}{{ page.url | replace: 'index.html', '' }}",
+      "link"			: "https://www.maze.io{{ page.url | replace: 'index.html', '' }}",
        "date"		: {{ page.date | jsonify }},
       "excerpt"	: "{{ page.excerpt | strip_html | strip_newlines }}"
     }
